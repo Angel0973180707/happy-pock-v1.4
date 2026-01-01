@@ -1,1 +1,26 @@
+{
+  "short_name": "練功房",
+  "name": "幸福教養：零用錢練功房 v1.4",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2933/2933116.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2933/2933116.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#0a0a0c",
+  "display": "standalone",
+  "scope": "./",
+  "theme_color": "#ff8c00",
+  "description": "理智隊長前額葉鍛鍊工具 - 兒童理財教養 v1.4",
+  "orientation": "portrait"
+}
 
