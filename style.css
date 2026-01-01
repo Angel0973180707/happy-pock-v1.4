@@ -1,0 +1,56 @@
+/* 全域大字體設定 */
+html { font-size: 18px; }
+
+body { font-family: 'PingFang TC', system-ui, sans-serif; background: #0a0a0c; }
+
+/* 核心：高對比輸入框修正 */
+.input-dark-field {
+    width: 100%;
+    background-color: #24242e !important; /* 深灰背景 */
+    color: #ffffff !important;           /* 純白文字 */
+    border: 2px solid #3f3f4e;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    outline: none;
+    transition: all 0.3s;
+    font-weight: 900;
+}
+
+.input-dark-field:focus {
+    border-color: #ff8c00;
+    background-color: #2d2d3a !important;
+    box-shadow: 0 0 15px rgba(255, 140, 0, 0.4);
+}
+
+.input-dark-field::placeholder {
+    color: #6a6a7a;
+}
+
+/* 卡片與按鈕 */
+.card-dark {
+    background: #16161d;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.btn-orange-dark {
+    background: linear-gradient(135deg, #ff8c00 0%, #ff4b2b 100%);
+    color: white;
+    border-radius: 1.5rem;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -5px rgba(255, 75, 43, 0.4);
+}
+
+.btn-orange-dark:active { transform: scale(0.96); }
+
+/* 導覽列 */
+.nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; filter: grayscale(1); opacity: 0.4; transition: 0.3s; background: none; border: none; color: white; }
+.tab-active { filter: grayscale(0); opacity: 1; transform: translateY(-8px); color: #ff8c00 !important; font-weight: 900; }
+
+.mode-btn { padding: 0.8rem; border-radius: 1rem; background: #25252e; color: #94a3b8; font-weight: bold; border: 2px solid transparent; }
+.mode-active { background: rgba(255, 140, 0, 0.1); color: #ff8c00; border-color: #ff8c00; }
+
+.hidden { display: none !important; }
